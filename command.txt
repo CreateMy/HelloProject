@@ -1,0 +1,16 @@
+…or create a new repository on the command line（新建一个本地仓库并推送）
+
+echo "# HelloProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:CreateMy/HelloProject.git
+git push -u origin main
+                
+
+…or push an existing repository from the command line（推送一个已有的仓库）
+
+git remote add origin git@github.com:CreateMy/HelloProject.git
+git branch -M main
+git push -u origin main
